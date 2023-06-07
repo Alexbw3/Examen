@@ -1,0 +1,140 @@
+#mainPanel{
+    -fx-background-color:  #B0B3C4;
+    -fx-spacing: 0px;
+    -fx-alignment: center;
+}
+
+#header{
+    -fx-background-image: url(../Imagen/nevado.jpg);
+    -fx-background-color: #B0B3C4;
+    -fx-background-size: 400,200;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 400;
+    -fx-pref-height: 200;
+    -fx-background-position: center;
+    -fx-alignment: bottom-center;
+
+
+}
+
+#button {
+    -fx-background-image: url(../imagen/Profile.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 70,70;
+    -fx-pref-height: 70;
+    -fx-pref-width: 70;
+    -fx-border-color:  #B0B3C4;
+
+
+}
+#main{
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+    -fx-background-color:  #B0B3C4;
+    -fx-background-position: center;
+    -fx-spacing: 0px;
+}
+
+
+#panel1{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+
+}
+
+#imageButton {
+    -fx-background-image: url(../imagen/MaleUser.png);
+    -fx-background-color:  #B0B3C4;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 40,40;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+
+#2panel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+
+}
+
+#imageButton2 {
+    -fx-background-image: url(../imagen/Secure.png);
+    -fx-background-color: #B0B3C4;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 40,40;
+    -fx-pref-height: 50;
+    -fx-pref-width: 50;
+}
+
+#label{
+    -fx-alignment: center;
+    -fx-pref-width: 400;
+    -fx-pref-height: 50;
+    -fx-padding: 40;
+
+}
+
+#Text{
+    -fx-fill: #000000;
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 20;
+}
+
+#Text2{
+    -fx-font-size: 14;
+    -fx-fill: #282924;
+}
+
+#check{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+    -fx-padding: 0;
+}
+
+#right{
+    -fx-pref-width: 280;
+    -fx-pref-height: 40;
+    -fx-alignment: center-right;
+
+}
+
+#left{
+    -fx-pref-width: 125;
+    -fx-pref-height: 40;
+    -fx-alignment: center-left;
+}
+
+#loginright{
+    -fx-pref-width: 300;
+    -fx-pref-height: 50;
+    -fx-alignment: center-right;
+    -fx-background-color: #B0B3C4;
+}
+#loginButton {
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #000000;
+    -fx-pref-height: 30;
+    -fx-pref-width: 155;
+}
+#loginletf{
+    -fx-pref-width: 100;
+    -fx-pref-height: 50;
+    -fx-alignment: center-left;
+    -fx-background-color: #B0B3C4;
+
+}
+
+#panel3{
+    -fx-pref-width: 125;
+    -fx-pref-height: 40;
+    -fx-background-color: green;
+
+
+}

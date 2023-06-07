@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox fx:id="mainPanel" styleClass="vbox-class" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.examen.HelloController">
+
+    <VBox fx:id="header" styleClass="vbox-class">
+        <ImageView fx:id="imagen" fitHeight="90.0" fitWidth="76.0" layoutX="102.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@imagen/Profile.png" />
+            </image>
+        </ImageView>
+    </VBox>
+    <VBox fx:id="main" styleClass="vbox-class" >
+
+        <VBox fx:id="label" styleClass="v-box" >
+            <Text fx:id="Text" >
+                ¡Bienvenidos otra vez!
+            </Text>
+            <Text fx:id="Text2" >
+                Ingrese su cuenta
+            </Text>
+        </VBox>
+        <HBox fx:id="panel1" styleClass="h-box" >
+            <Button fx:id="imageButton" /> <TextField />
+        </HBox>
+        <HBox fx:id="2panel" styleClass="h-box" >
+            <Button fx:id="imageButton2" /> <TextField />
+        </HBox>
+        <HBox styleClass="hbox-class" fx:id="check">
+            <VBox fx:id="right">
+                <Label styleClass="label-class">
+                   Recuerdame
+                </Label>
+            </VBox>
+            <VBox fx:id="left" >
+                <CheckBox mnemonicParsing="false" />
+            </VBox>
+        </HBox>
+        <HBox fx:id="panel3" styleClass="hbox-class">
+         <VBox styleClass="vbox-class" fx:id="loginright" >
+            <Button fx:id="loginButton" text="Login"/>
+           </VBox>
+            <HBox fx:id="loginletf" styleClass="hbox-class" >
+            </HBox>
+    </HBox>
+    </VBox>
+</VBox>
